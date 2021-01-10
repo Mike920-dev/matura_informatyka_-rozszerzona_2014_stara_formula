@@ -16,7 +16,7 @@ BCV
 CEGIKOT
 CEGKZ
 
-c) Napisy rosnące: 
+c) Napisy, które wystąpiły więcej niż 1 raz: 
 FHJLMU
 GC
 QULA
