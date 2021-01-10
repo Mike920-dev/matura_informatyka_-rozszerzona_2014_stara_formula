@@ -24,4 +24,4 @@ for napis in napisy:
 print(ile_napisow)
 
 with open("ZADANIE5.TXT", "w", encoding="UTF-8") as plik:
-    plik.write(f'a) Napisów pierwszych jest: {ile_napisow}\n')
+    plik.write(f'a) Napisów pierwszych jest: {ile_napisow}\n\n')

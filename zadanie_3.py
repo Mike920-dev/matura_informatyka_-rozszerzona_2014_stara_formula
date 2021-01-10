@@ -30,4 +30,4 @@ with open("ZADANIE5.TXT", "a", encoding="UTF-8") as plik:
     plik.write("c) Napisy rosnące: \n")
 
     for napis in napisy_wystepujace_wiecej_niz_raz:
-        plik.write(napis)
+        plik.write(f'{napis}\n')

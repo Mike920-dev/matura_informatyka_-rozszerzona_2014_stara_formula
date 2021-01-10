@@ -25,6 +25,6 @@ for napis in napisy_rosnace:
 with open("ZADANIE5.TXT", "a", encoding="UTF-8") as plik:
     plik.write(f'b) Napisy rosnące: \n')
     for napis in napisy_rosnace:
-        plik.write(napis)
+        plik.write(f'{napis}\n')
     plik.write("\n")
 
