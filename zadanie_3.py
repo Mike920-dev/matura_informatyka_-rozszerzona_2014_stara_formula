@@ -27,7 +27,7 @@ for napis in napisy_wystepujace_wiecej_niz_raz:
     print(napis)
 
 with open("ZADANIE5.TXT", "a", encoding="UTF-8") as plik:
-    plik.write("c) Napisy rosnące: \n")
+    plik.write("c) Napisy, które wystąpiły więcej niż 1 raz: \n")
 
     for napis in napisy_wystepujace_wiecej_niz_raz:
         plik.write(f'{napis}\n')
