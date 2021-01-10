@@ -1,5 +1,3 @@
-from collections import Counter
-
 with open("NAPISY_2014.TXT", "r", encoding="UTF-8") as plik:
     napisy = []
 
